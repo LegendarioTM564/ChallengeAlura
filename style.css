@@ -28,8 +28,9 @@ header img{
 h1{
     color: #0A3871;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 18px;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .contenedor{
