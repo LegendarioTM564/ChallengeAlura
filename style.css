@@ -177,10 +177,33 @@ h1{
 }
 
  footer{
+    height: 50px;
+    padding: 10px;
     background: #0A3871;
-    color: #F3F5FC;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 } 
+footer p{
+    color: #F3F5FC;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.iconos {
+    height: 100%;
+    margin-top: 5px;
+}
+.iconos a{
+    text-decoration: none;
+}
+.iconos .github,.linkedin {
+    color: #f3f5fc;
+    font-size: 18px;
+    margin: 0px 5px;
+}
 
 /* Media Query */
 
@@ -228,6 +251,12 @@ h1{
         display: none;
         width: 80%;
         height: 50px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    .iconos .github,.linkedin {
+        font-size: 25px;
     }
 } 
 
@@ -303,5 +332,15 @@ h1{
         display: none;
         width: 80%;
         height: 50px;
+    }
+    footer{
+        height: 70px;
+    
+    } 
+    footer p{
+        font-size: 22px;
+    }
+    .iconos .github,.linkedin {
+        font-size: 28px;
     }
 }
