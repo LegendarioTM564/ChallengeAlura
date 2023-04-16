@@ -16,10 +16,20 @@ header{
     height: 96px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 5px 2px 5px #0A3871;
+    
+}
+
+header img{
+    margin-left: 16px;
 }
 
 h1{
-    margin-left: 16px;
+    color: #0A3871;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 0 auto;
 }
 
 .contenedor{
@@ -56,6 +66,7 @@ h1{
 .texto-guia p{
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 .texto-guia img{
     margin-right:5px;
@@ -174,6 +185,9 @@ h1{
 /* Media Query */
 
 @media screen and (min-width: 768px){
+    h1{
+        font-size: 35px; 
+    }
     .contenedor-formulario form{
         width: 90%;
         display: flex;
@@ -189,6 +203,9 @@ h1{
         justify-content: flex-start;
         width: 90%;
         height: 30px;
+    }
+    .texto-guia p{
+        font-weight: bold;
     }
     .contenedor-botones{
         flex-direction: row;
@@ -215,6 +232,9 @@ h1{
 } 
 
   @media screen and (min-width: 1440px){
+    h1{
+        font-size: 50px; 
+    }
     .contenedor{
         flex-direction: row;
         height: 100%;
@@ -267,13 +287,18 @@ h1{
     }
 }
 
-@media screen and (min-width: 1440px) and (min-height: 1024px){
+@media screen and (min-width: 1920px) {
     .texto-guia{
         position: relative;
-        top: 250px;
+        top: 220px;
         width: 50%;
         height: 30px;
     }
+    .texto-guia p{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
     .boton-copiar{
         display: none;
         width: 80%;
