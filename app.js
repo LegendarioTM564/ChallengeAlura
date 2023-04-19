@@ -4,7 +4,7 @@ const letraI= "imes";
 const letraO= "ober";
 const letraU= "ufat";
 const mediaQuery= matchMedia("(min-width: 320px)");
-const caracteresPermitidos = "^[ a-z\s]+$"
+const caracteresPermitidos = "^[ a-z0-9//¿?¡!/s]+$"
 
 
 let formulario = document.getElementById("formulario");
